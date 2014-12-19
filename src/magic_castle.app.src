@@ -1,0 +1,21 @@
+{application, magic_castle, [
+	{description, ""},
+	{vsn, "0.1.0"},
+	{id, "git"},
+	{modules, []},
+	{registered, []},
+	{applications, [
+		kernel,
+		stdlib,
+                compiler,
+                syntax_tools,
+                goldrush,
+                lager,
+                crypto,
+                triq
+	]},
+	{mod, {magic_castle, []}},
+	{env, [
+        
+        ]}
+]}.
